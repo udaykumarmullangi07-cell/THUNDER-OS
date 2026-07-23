@@ -1,9 +1,13 @@
 function Dashboard() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <h1 className="text-5xl font-bold text-blue-500">
-        THUNDER OS ⚡
+    <div>
+      <h1 className="text-4xl font-bold mb-4">
+        👋 Welcome, Uday
       </h1>
+
+      <p className="text-zinc-400 text-lg">
+        This is the beginning of THUNDER OS.
+      </p>
     </div>
   );
 }
