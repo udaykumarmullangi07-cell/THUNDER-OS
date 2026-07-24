@@ -1,21 +1,66 @@
 import {
   LayoutDashboard,
-  CalendarDays,
   CheckSquare,
-  NotebookPen,
-  Target,
+  Footprints,
   Dumbbell,
-  Brain,
+  Apple,
+  BookOpen,
+  Code2,
+  Wallet,
+  NotebookPen,
+  BarChart3,
+  CalendarDays,
   Settings,
 } from "lucide-react";
 
 export const navigation = [
-  { name: "Dashboard", icon: LayoutDashboard },
-  { name: "Calendar", icon: CalendarDays },
-  { name: "Tasks", icon: CheckSquare },
-  { name: "Notes", icon: NotebookPen },
-  { name: "Goals", icon: Target },
-  { name: "Fitness", icon: Dumbbell },
-  { name: "AI Assistant", icon: Brain },
-  { name: "Settings", icon: Settings },
+  {
+    title: "Dashboard",
+    icon: LayoutDashboard,
+  },
+  {
+    title: "Habit Tracker",
+    icon: CheckSquare,
+    active: true,
+  },
+  {
+    title: "Running Log",
+    icon: Footprints,
+  },
+  {
+    title: "Gym Log",
+    icon: Dumbbell,
+  },
+  {
+    title: "Nutrition",
+    icon: Apple,
+  },
+  {
+    title: "Study Tracker",
+    icon: BookOpen,
+  },
+  {
+    title: "LeetCode",
+    icon: Code2,
+  },
+  {
+    title: "Finance",
+    icon: Wallet,
+  },
+  {
+    title: "Journal",
+    icon: NotebookPen,
+  },
+  {
+    title: "Analytics",
+    icon: BarChart3,
+  },
+  {
+    title: "Calendar",
+    icon: CalendarDays,
+  },
+  {
+    title: "Settings",
+    icon: Settings,
+  },
 ];
