@@ -1,15 +1,15 @@
-import Sidebar from "./Sidebar";
-import Navbar from "./Navbar";
+import Sidebar from "./Sidebar/Sidebar";
+import Navbar from "./Navbar/Navbar";
 
 function MainLayout({ children }) {
   return (
-    <div className="flex h-screen bg-black text-white">
+    <div className="flex min-h-screen bg-black text-white">
       <Sidebar />
 
-      <div className="flex flex-col flex-1">
+      <div className="flex flex-1 flex-col">
         <Navbar />
 
-        <main className="flex-1 p-8 overflow-auto">
+        <main className="flex-1 p-6">
           {children}
         </main>
       </div>
